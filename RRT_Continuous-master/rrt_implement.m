@@ -33,7 +33,7 @@ function [edges,vertices] = rrt_implement(environment,source,goal,delta)
     if environment(ceil(new_point(2)),ceil(new_point(1))) == 1
         if edge_in_freespace(environment,nearest_point,new_point) 
             disp('unique point')
-            new_point
+            %new_point
             vertices = [vertices;new_point];
 
             [qNewIndex, ~] = size(vertices);

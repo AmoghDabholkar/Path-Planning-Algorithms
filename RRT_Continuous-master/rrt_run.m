@@ -4,7 +4,7 @@ close all
 
 environment = load('environment.mat');
 x = 5;
-delta = 2;
+delta = 1;
 source = [1,147/x];
 goal = [230/x,20];
 %goal = [150/(5*x),250/(5*x)];
